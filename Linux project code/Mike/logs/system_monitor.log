@@ -1,0 +1,138 @@
+=============================
+Date: Sun Mar 22 08:30:14 UTC 2026
+=============================
+---- CPU & Memory Usage ----
+top - 08:30:14 up  3:40,  0 user,  load average: 0.52, 0.58, 0.59
+Tasks:  21 total,   1 running,  12 sleeping,   8 stopped,   0 zombie
+%Cpu(s):  0.0 us,  4.5 sy,  0.0 ni, 95.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  16327.0 total,   8241.5 free,   8085.5 used,    224.0 buff/cache     
+MiB Swap:  14316.1 total,  14296.6 free,     19.5 used.   8241.5 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    1 root      20   0    8952    324    280 S   0.0   0.0   0:00.17 init
+   68 root      20   0    8952    228    180 S   0.0   0.0   0:00.00 init
+   69 shubham   20   0   14112   3936   3852 S   0.0   0.0   0:00.34 bash
+---- Top Processes (CPU) ----
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       640 18.7  0.0  16312  2816 pts/3    R    08:30   0:00 ps aux --sort=-%cpu
+root       634  9.8  0.0  22040  4172 tty2     S    08:30   0:00 sudo ./monitoringscript.sh
+root       641  6.2  0.0  11176   948 pts/3    S    08:30   0:00 head -5
+root       487  4.8  0.0  15904  5744 pts/2    T    08:13   0:50 du -sh /backups /bin /bin.usr-is-merged /boot /dev /etc /home /init /lib /lib.usr-is-merged /lib64 /media /mnt /opt /proc /root /run /sbin /sbin.usr-is-merged /snap /srv /sys /tmp /usr /var
+---- Top Processes (Memory) ----
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       487  4.8  0.0  15904  5744 pts/2    T    08:13   0:50 du -sh /backups /bin /bin.usr-is-merged /boot /dev /etc /home /init /lib /lib.usr-is-merged /lib64 /media /mnt /opt /proc /root /run /sbin /sbin.usr-is-merged /snap /srv /sys /tmp /usr /var
+shubham    478  2.3  0.0  14440  4324 tty2     T    08:11   0:26 du -sh /backups /bin /bin.usr-is-merged /boot /dev /etc /home /init /lib /lib.usr-is-merged /lib64 /media /mnt /opt /proc /root /run /sbin /sbin.usr-is-merged /snap /srv /sys /tmp /usr /var
+root       482  0.0  0.0  22040  4292 tty2     T    08:12   0:00 sudo du -sh /backups /bin /bin.usr-is-merged /boot /dev /etc /home /init /lib /lib.usr-is-merged /lib64 /media /mnt /opt /proc /root /run /sbin /sbin.usr-is-merged /snap /srv /sys /tmp /usr /var
+root       485  0.0  0.0  22040  4288 tty2     T    08:13   0:00 sudo du -sh /backups /bin /bin.usr-is-merged /boot /dev /etc /home /init /lib /lib.usr-is-merged /lib64 /media /mnt /opt /proc /root /run /sbin /sbin.usr-is-merged /snap /srv /sys /tmp /usr /var
+---- Disk Usage ----
+Filesystem      Size  Used Avail Use% Mounted on
+rootfs          112G   92G   21G  82% /
+none            112G   92G   21G  82% /dev
+none            112G   92G   21G  82% /run
+none            112G   92G   21G  82% /run/lock
+none            112G   92G   21G  82% /run/shm
+none            112G   92G   21G  82% /run/user
+tmpfs           112G   92G   21G  82% /sys/fs/cgroup
+C:\             112G   92G   21G  82% /mnt/c
+D:\             126G   89G   38G  71% /mnt/d
+E:\             119G   71G   48G  60% /mnt/e
+---- Directory Usage ----
+12K	/home/mike
+8.0K	/home/muskan
+8.0K	/home/sarah
+320K	/home/shubham
+
+=============================
+Date: Sun Mar 22 09:44:49 UTC 2026
+=============================
+---- CPU & Memory Usage ----
+top - 09:44:49 up  4:54,  0 user,  load average: 0.52, 0.58, 0.59
+Tasks:  25 total,   1 running,  16 sleeping,   8 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  16327.0 total,   8328.8 free,   7998.2 used,    224.0 buff/cache     
+MiB Swap:  14316.1 total,  14296.6 free,     19.4 used.   8328.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    1 root      20   0    8952    324    280 S   0.0   0.0   0:00.17 init
+   68 root      20   0    8952    228    188 S   0.0   0.0   0:00.00 init
+   69 shubham   20   0   14112   3936   3852 S   0.0   0.0   0:00.34 bash
+---- Top Processes (CPU) ----
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      1238 42.8  0.0  12792  1856 pts/3    S    09:44   0:00 bash monitoringscript.sh
+root      1236  2.6  0.0  22076  4388 tty1     S    09:44   0:00 sudo bash monitoringscript.sh
+root       487  0.9  0.0  15904  5724 pts/2    T    08:13   0:50 du -sh /backups /bin /bin.usr-is-merged /boot /dev /etc /home /init /lib /lib.usr-is-merged /lib64 /media /mnt /opt /proc /root /run /sbin /sbin.usr-is-merged /snap /srv /sys /tmp /usr /var
+shubham    478  0.4  0.0  14440  4308 tty2     T    08:11   0:26 du -sh /backups /bin /bin.usr-is-merged /boot /dev /etc /home /init /lib /lib.usr-is-merged /lib64 /media /mnt /opt /proc /root /run /sbin /sbin.usr-is-merged /snap /srv /sys /tmp /usr /var
+---- Top Processes (Memory) ----
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       487  0.9  0.0  15904  5724 pts/2    T    08:13   0:50 du -sh /backups /bin /bin.usr-is-merged /boot /dev /etc /home /init /lib /lib.usr-is-merged /lib64 /media /mnt /opt /proc /root /run /sbin /sbin.usr-is-merged /snap /srv /sys /tmp /usr /var
+root      1236  2.2  0.0  22076  4388 tty1     S    09:44   0:00 sudo bash monitoringscript.sh
+shubham    478  0.4  0.0  14440  4308 tty2     T    08:11   0:26 du -sh /backups /bin /bin.usr-is-merged /boot /dev /etc /home /init /lib /lib.usr-is-merged /lib64 /media /mnt /opt /proc /root /run /sbin /sbin.usr-is-merged /snap /srv /sys /tmp /usr /var
+root       482  0.0  0.0  22040  4168 tty2     T    08:12   0:00 sudo du -sh /backups /bin /bin.usr-is-merged /boot /dev /etc /home /init /lib /lib.usr-is-merged /lib64 /media /mnt /opt /proc /root /run /sbin /sbin.usr-is-merged /snap /srv /sys /tmp /usr /var
+---- Disk Usage ----
+Filesystem      Size  Used Avail Use% Mounted on
+rootfs          112G   92G   21G  82% /
+none            112G   92G   21G  82% /dev
+none            112G   92G   21G  82% /run
+none            112G   92G   21G  82% /run/lock
+none            112G   92G   21G  82% /run/shm
+none            112G   92G   21G  82% /run/user
+tmpfs           112G   92G   21G  82% /sys/fs/cgroup
+C:\             112G   92G   21G  82% /mnt/c
+D:\             126G   89G   38G  71% /mnt/d
+E:\             119G   71G   48G  60% /mnt/e
+---- Directory Usage ----
+8.0K	/home/aman
+12K	/home/mike
+8.0K	/home/muskan
+8.0K	/home/sarah
+320K	/home/shubham
+8.0K	/home/tattan
+20K	/home/vijay
+
+=============================
+Date: Sun Mar 22 09:47:17 UTC 2026
+=============================
+---- CPU & Memory Usage ----
+top - 09:47:17 up  4:57,  0 user,  load average: 0.52, 0.58, 0.59
+Tasks:  25 total,   1 running,  16 sleeping,   8 stopped,   0 zombie
+%Cpu(s):  0.0 us,  4.4 sy,  0.0 ni, 95.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  16327.0 total,   8216.3 free,   8110.7 used,    224.0 buff/cache     
+MiB Swap:  14316.1 total,  14296.6 free,     19.4 used.   8216.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    1 root      20   0    8952    324    280 S   0.0   0.0   0:00.17 init
+   68 root      20   0    8952    228    188 S   0.0   0.0   0:00.00 init
+   69 shubham   20   0   14112   3936   3852 S   0.0   0.0   0:00.34 bash
+---- Top Processes (CPU) ----
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      1264  5.4  0.0  16312  2820 pts/3    R    09:47   0:00 ps aux --sort=-%cpu
+root      1258  5.4  0.0  22044  4180 tty1     S    09:47   0:00 sudo bash monitoringscript.sh
+root      1265  1.8  0.0  11176   948 pts/3    S    09:47   0:00 head -5
+root      1259  1.1  0.0  22044   400 pts/3    Ss   09:47   0:00 sudo bash monitoringscript.sh
+---- Top Processes (Memory) ----
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       487  0.8  0.0  15904  5724 pts/2    T    08:13   0:50 du -sh /backups /bin /bin.usr-is-merged /boot /dev /etc /home /init /lib /lib.usr-is-merged /lib64 /media /mnt /opt /proc /root /run /sbin /sbin.usr-is-merged /snap /srv /sys /tmp /usr /var
+shubham    478  0.4  0.0  14440  4308 tty2     T    08:11   0:26 du -sh /backups /bin /bin.usr-is-merged /boot /dev /etc /home /init /lib /lib.usr-is-merged /lib64 /media /mnt /opt /proc /root /run /sbin /sbin.usr-is-merged /snap /srv /sys /tmp /usr /var
+root      1258  5.4  0.0  22044  4180 tty1     S    09:47   0:00 sudo bash monitoringscript.sh
+root       482  0.0  0.0  22040  4168 tty2     T    08:12   0:00 sudo du -sh /backups /bin /bin.usr-is-merged /boot /dev /etc /home /init /lib /lib.usr-is-merged /lib64 /media /mnt /opt /proc /root /run /sbin /sbin.usr-is-merged /snap /srv /sys /tmp /usr /var
+---- Disk Usage ----
+Filesystem      Size  Used Avail Use% Mounted on
+rootfs          112G   92G   21G  82% /
+none            112G   92G   21G  82% /dev
+none            112G   92G   21G  82% /run
+none            112G   92G   21G  82% /run/lock
+none            112G   92G   21G  82% /run/shm
+none            112G   92G   21G  82% /run/user
+tmpfs           112G   92G   21G  82% /sys/fs/cgroup
+C:\             112G   92G   21G  82% /mnt/c
+D:\             126G   89G   38G  71% /mnt/d
+E:\             119G   71G   48G  60% /mnt/e
+---- Directory Usage ----
+8.0K	/home/aman
+12K	/home/mike
+8.0K	/home/muskan
+8.0K	/home/sarah
+320K	/home/shubham
+8.0K	/home/tattan
+20K	/home/vijay
+

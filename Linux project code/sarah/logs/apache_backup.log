@@ -1,0 +1,14 @@
+===== Apache Backup: Sun Mar 22 11:39:45 UTC 2026 =====
+tar: Removing leading `/' from member names
+tar: /etc/httpd: Cannot stat: No such file or directory
+tar: Removing leading `/' from hard link targets
+tar: Exiting with failure status due to previous errors
+Backup Verified: SUCCESS
+
+===== Apache Backup: Sun Mar 22 11:41:41 UTC 2026 =====
+tar: Removing leading `/' from member names
+tar: /etc/httpd: Cannot stat: No such file or directory
+tar: Removing leading `/' from hard link targets
+tar: Exiting with failure status due to previous errors
+Backup Verified: SUCCESS
+
